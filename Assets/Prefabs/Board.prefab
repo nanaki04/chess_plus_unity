@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224272385532581484}
   - component: {fileID: 114791568270834282}
   - component: {fileID: 114745107749949540}
+  - component: {fileID: 114582099787838186}
   m_Layer: 5
   m_Name: Board
   m_TagString: Untagged
@@ -28,6 +29,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114582099787838186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1308508199946182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c537a0345ff340db9de20a1bac022ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pawn: {fileID: 1725653780080436, guid: fec3852d97c674ffc877f032e404a331, type: 2}
+  rook: {fileID: 1223851583440116, guid: 735ca2576936b47e4a88df4894fbf0c3, type: 2}
+  bishop: {fileID: 1064150731974314, guid: cc509489c391d4436a3ee37667cc8a01, type: 2}
+  knight: {fileID: 1515428432362906, guid: 7b098862a51d44d0fb5669f199ce9099, type: 2}
+  king: {fileID: 1147840470619044, guid: 964ffcbb498c0404fb95cd7fe79a1f3c, type: 2}
+  queen: {fileID: 1222963161871052, guid: c8a722a9d0d3e4afaa388f28c5a434b4, type: 2}
 --- !u!114 &114745107749949540
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -40,6 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 1327325044660492, guid: 8698d0cb59cde4180bd1f5832a07a837, type: 2}
+  pieceFactory: {fileID: 114582099787838186}
 --- !u!114 &114791568270834282
 MonoBehaviour:
   m_ObjectHideFlags: 1
