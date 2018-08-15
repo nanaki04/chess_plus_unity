@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1599937159699750}
+  m_IsPrefabParent: 1
+--- !u!1 &1599937159699750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4619782709623942}
+  - component: {fileID: 33360967915331118}
+  - component: {fileID: 23154077603564454}
+  - component: {fileID: 114664275459604544}
+  - component: {fileID: 64161365704581284}
+  m_Layer: 0
+  m_Name: Tile3D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4619782709623942
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599937159699750}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &23154077603564454
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599937159699750}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 06b8813c8fc6b40b8b57b9394933fffe, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33360967915331118
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599937159699750}
+  m_Mesh: {fileID: 4300000, guid: ee1ec41d94a0440a9b4b3a0d1f7bdd80, type: 3}
+--- !u!64 &64161365704581284
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599937159699750}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: ee1ec41d94a0440a9b4b3a0d1f7bdd80, type: 3}
+--- !u!114 &114664275459604544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599937159699750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9112e6a0e16423ca7978082b387b3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackMaterial: {fileID: 2100000, guid: 06b8813c8fc6b40b8b57b9394933fffe, type: 2}
+  whiteMaterial: {fileID: 2100000, guid: 65f171697391d49b493528c75ad07065, type: 2}
+  blackSelectedBlackTileMaterial: {fileID: 2100000, guid: 8a09815b9d4824423a4e1926ae8a0d78,
+    type: 2}
+  blackSelectedWhiteTileMaterial: {fileID: 2100000, guid: e3513393bb33f433f83587484a49448c,
+    type: 2}
+  whiteSelectedBlackTileMaterial: {fileID: 2100000, guid: fbeaa0e0ecb1d406c815cb04d04790eb,
+    type: 2}
+  whiteSelectedWhiteTileMaterial: {fileID: 2100000, guid: 09325c4dc2330401b92f75ff52b7f254,
+    type: 2}
+  blackConquerableBlackTileMaterial: {fileID: 2100000, guid: 23b59f1c107134228b9b5abe2df61102,
+    type: 2}
+  blackConquerableWhiteTileMaterial: {fileID: 2100000, guid: 6696e620b551e43a4a5bf0491baa40f6,
+    type: 2}
+  whiteConquerableBlackTileMaterial: {fileID: 2100000, guid: 1eadbb62cdcbc4b6389ecd258d8814f9,
+    type: 2}
+  whiteConquerableWhiteTileMaterial: {fileID: 2100000, guid: a7fc84efd67944c768f9b54b8d45005a,
+    type: 2}
+  meshRenderer: {fileID: 23154077603564454}
