@@ -56,11 +56,13 @@
      <Compile Include="Assets\DuelState.cs" />
      <Compile Include="Assets\Env.cs" />
      <Compile Include="Assets\InputHandler.cs" />
+     <Compile Include="Assets\Lighting.cs" />
      <Compile Include="Assets\Login.cs" />
      <Compile Include="Assets\Piece.cs" />
      <Compile Include="Assets\Piece3D.cs" />
      <Compile Include="Assets\PieceFactory.cs" />
      <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\PlayerCamera.cs" />
      <Compile Include="Assets\Popups.cs" />
      <Compile Include="Assets\TcpStream.cs" />
      <Compile Include="Assets\Tile.cs" />

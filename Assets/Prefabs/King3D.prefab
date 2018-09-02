@@ -9,74 +9,74 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1005896515146516}
+  m_RootGameObject: {fileID: 1614176724218422}
   m_IsPrefabParent: 1
---- !u!1 &1005896515146516
+--- !u!1 &1242617152445294
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4985429204366570}
-  - component: {fileID: 114814621907816664}
+  - component: {fileID: 4259915025162730}
+  - component: {fileID: 33548778517868494}
+  - component: {fileID: 23783255385518870}
   m_Layer: 0
-  m_Name: Pawn3D
+  m_Name: king
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1100798443700212
+--- !u!1 &1614176724218422
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4054134789670360}
-  - component: {fileID: 33430384677970406}
-  - component: {fileID: 23035207959065792}
+  - component: {fileID: 4995349907171280}
+  - component: {fileID: 114151308437308850}
   m_Layer: 0
-  m_Name: Pawn
+  m_Name: King3D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4054134789670360
+--- !u!4 &4259915025162730
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1100798443700212}
+  m_GameObject: {fileID: 1242617152445294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4985429204366570}
+  m_Father: {fileID: 4995349907171280}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4985429204366570
+--- !u!4 &4995349907171280
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1005896515146516}
+  m_GameObject: {fileID: 1614176724218422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0142}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4054134789670360}
+  - {fileID: 4259915025162730}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23035207959065792
+--- !u!23 &23783255385518870
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1100798443700212}
+  m_GameObject: {fileID: 1242617152445294}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -105,19 +105,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33430384677970406
+--- !u!33 &33548778517868494
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1100798443700212}
-  m_Mesh: {fileID: 4300000, guid: 97d6ad929e8c943608912d5270f8b6df, type: 3}
---- !u!114 &114814621907816664
+  m_GameObject: {fileID: 1242617152445294}
+  m_Mesh: {fileID: 4300000, guid: 75d433176ec1a4613866642bd0abd5fd, type: 3}
+--- !u!114 &114151308437308850
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1005896515146516}
+  m_GameObject: {fileID: 1614176724218422}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06f76d237f8574e69af0f0879ff4576b, type: 3}
@@ -125,4 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blackMaterial: {fileID: 2100000, guid: 1a11b39702fb741c3ae2e12d75463f33, type: 2}
   whiteMaterial: {fileID: 2100000, guid: 112a00c61157d4ddea4c6913f4b1db5b, type: 2}
-  meshRenderer: {fileID: 23035207959065792}
+  meshRenderer: {fileID: 23783255385518870}
