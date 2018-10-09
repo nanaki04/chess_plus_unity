@@ -2,3 +2,4 @@ ChessPlusMacOS.app
 Temp
 Library
 *.apk
+*.DS_Store
